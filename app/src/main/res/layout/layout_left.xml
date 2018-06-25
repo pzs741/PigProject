@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:background="#f5f5f5"
+        android:id="@+id/chat_left_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="14sp"
+        android:text="2015/5/6   12:10:13" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/chat_left_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ser" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/chat_left_message1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="您好。"
+            android:onClick="returnmsg" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/chat_left_message2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="您好。"
+            android:onClick="returnmsg" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="start"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/chat_left_message3"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="您好。"
+                android:onClick="returnmsg"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="start"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/chat_left_message4"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="您好。"
+                android:onClick="returnmsg"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="start"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/chat_left_message5"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="您好。"
+                android:onClick="returnmsg"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
