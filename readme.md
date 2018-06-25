@@ -31,7 +31,7 @@
 如果问题与知识库问题完全匹配或者BM25得分超过一定阈值，则直接返回该问题答案，如图3所示:
 
 
-![image](https://raw.githubusercontent.com/pzs741/PigProject/master/photos/3.png)
+![image](https://raw.githubusercontent.com/pzs741/PigProject/master/photos/3.jpg)
 
 
 图3问题答案解析
